@@ -1,0 +1,19 @@
+{
+  "name": "mern-agent-management",
+  "version": "1.0.0",
+  "description": "MERN Agent Management System with CSV distribution",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "start": "./start.sh",
+    "start-backend": "cd backend && npm start",
+    "start-frontend": "cd frontend && npm run dev",
+    "setup": "./setup.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["mern", "agent", "management", "csv", "distribution"],
+  "author": "MERN Agent Management",
+  "license": "MIT"
+}
