@@ -32,10 +32,14 @@ dotenv.config();
 const app = express();
 
 // Security and CORS middleware
+const allowedOrigins = [
+  'http://localhost:3000', // Development
+  'https://mern-agent-distribution.vercel.app', // Production
+  process.env.FRONTEND_URL // Custom frontend URL from env
+].filter(Boolean); // Remove undefined values
+
 app.use(cors({
-  origin: process.env.NODE_ENV === 'production' 
-    ? process.env.FRONTEND_URL 
-    : 'http://localhost:3000',
+  origin: allowedOrigins,
   credentials: true
 }));
 app.use(helmet()); // Security headers
