@@ -284,7 +284,7 @@ VITE_API_URL=http://localhost:5001/api
 
 **Demo Video**: [Upload your video to Google Drive and add the link here]
 
-**Live Demo**: [Add your deployed application URL here]
+**Live Demo**: [https://mern-agent-distribution.vercel.app](https://mern-agent-distribution.vercel.app)
 
 For detailed demo instructions and video recording guide, see [DEMO-GUIDE.md](./DEMO-GUIDE.md)
 
@@ -365,4 +365,4 @@ For support and questions, please create an issue in the repository.
 
 **Demo Video**: [Upload your demo video to Google Drive and add the link here]
 
-**Live Demo**: [Add your deployed application URL here]
+**Live Demo**: [https://mern-agent-distribution.vercel.app](https://mern-agent-distribution.vercel.app)
